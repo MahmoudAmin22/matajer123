@@ -33,3 +33,169 @@ html {
     --light: #f8f9fa;
     --dark: #343a40;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* start slides */
+
+.examples h1 {
+    display: flex;  
+    justify-content: center;
+    position: relative;
+}
+.examples h1::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color:rgb(168, 7, 168) ;
+    left: 50%;
+    bottom: -40%;
+    transform: translateX(-50%);
+}
+
+
+ 
+.slider {
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    margin-top: 80px;
+  }
+  
+   
+  .slider-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    overflow-x: hidden;
+  }
+  
+ 
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 20px;
+    
+   
+  }
+  
+  
+  .slider-item {
+    flex: 0 0 300px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+ 
+  .slider-item img {
+    width: 140px;
+    height: 170px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  .slider-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  
+  .slider-item .social {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .slider-item .social img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  
+  #prev,
+  #next {
+    position: relative;
+    background-color:rgb(83, 3, 83);
+    color: #fff;
+    border: none;
+
+    width: 40px;
+     
+    height: 40px;
+  
+    cursor: pointer;
+    z-index: 10;
+   
+  }
+  #prev span,
+  #next span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    margin-top: -5px;
+  }
+  #prev:hover,
+  #next:hover {
+    background-color: purple;
+    transition: 0.3s;
+  }
+  
+
+
+
+  
+  #prev {
+    position: absolute;
+    top:-50px;
+    left: 60px;
+  }
+  
+  #next {
+     
+    position: absolute;
+    top:-50px;
+    right: 0px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .slider-track {
+      gap: 10px;
+    }
+  
+    .slider-item {
+      flex: 0 0 250px;
+    }
+  
+    #prev,
+    #next {
+      font-size: 20px;
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+/*end slides */
