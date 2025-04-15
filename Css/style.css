@@ -581,6 +581,184 @@ html {
   
 /*end slides */
 
+/* Start Pricing*/
+  .pricing{
+    background-color: var(--light);
+    
+  }
+  .pricing h1 {
+    margin:0 0 50px 0;
+    display: flex;  
+    justify-content: center;
+    position: relative;
+  }
+  .pricing h1::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color:rgb(168, 7, 168) ;
+    left: 50%;
+    bottom: -40%;
+    transform: translateX(-50%);
+  }
+  .pricing .container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 30px;
+  }
+  .pricing .box{
+  color: #5153a6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 15px;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 15px;
+}
+.pricing .pad{
+  padding: 20px;
+}
+.pricing .box .head{
+  font-weight: normal;
+  position: relative;
+}
+
+.pricing .box:nth-child(2){
+  color: white;
+  background: linear-gradient(to left, rgba(111, 113, 205, 0.95) 0%, rgba(70, 72, 159, 0.95) 90%) !important;
+}
+.pricing .box:nth-child(2) .head::before{
+  background-color: white ;
+
+}
+.head{
+  padding-top: 20px;
+}
+.head::before{
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-bottom: 5px;
+  background-color: #5153a6;
+  left: 50%;
+  bottom: -45%;
+  transform: translateX(-50%);
+}
+.pricing .box ul{
+  padding:15px;
+}
+.pricing .box ul li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+}
+.pricing .box .price{
+  padding: 20px 10px 10px 10px;
+  font-size: 24px;
+}
+.pricing .box .price-hide{
+  display: none;
+  padding: 20px 10px 10px 10px;
+  font-size: 24px;
+}
+.pricing .box .delPrice{
+  text-decoration: line-through;
+}
+.pricing .box .factprice{
+  margin: 0 10px;
+  font-weight: bold;
+}
+.pricing .box .text{
+  font-size: 15px;
+}
+.pricing .box .detail{
+  font-size: 10px;
+}
+.pricing .box:nth-child(3) .detail{
+  font-size: 12px;
+}
+.pricing .box a{
+  text-decoration: none;
+  color: #5153a6;
+}
+.pricing .box a::before{
+  content: "\f104";
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  margin-right: 5px;
+
+}
+.pricing .box:nth-child(2) a{
+  color: var(--white);
+}
+
+#toggle {
+  display: none;
+}
+.pricing .box .switch {
+  position: relative;
+  appearance: none;
+  width: 60px;
+  height: 25px;
+  border-radius: 15px;
+  transform: translatey(30%);
+  background: var(--white);
+  cursor: pointer;
+}
+.pricing .box .switch::before{
+  content: "";
+  position: absolute;
+  background-color: rgba(29, 196, 154, 0.95);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  top: 2px;
+  right: 2px;
+  transition: 0.3s;
+}
+.pricing .box #toggle:checked + .switch::before{
+  right: 36px;
+
+}
+.pricing .box #toggle:checked ~ .price{
+  display: none;
+}
+.pricing .box #toggle:checked ~ .price-hide{
+  display: block;
+}
+.pricing .contact{
+  grid-column: 1/4;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  color: #5153a6;
+  padding: 30px;
+  margin: 15px;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 15px;
+}
+.pricing .contact .right{
+  text-align: right;
+  padding: 10px;
+}
+.pricing .contact .right h3{
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+
+.pricing .comp{
+  display: flex;
+  justify-content: center;
+  grid-column: 1/4;
+  margin-bottom: 50px;
+}
+/* End Pricing*/
+
 /* Start  */
 
 .start {
