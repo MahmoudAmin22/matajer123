@@ -43,7 +43,84 @@ html {
 
 
 
-
+/* Start Payment */
+.Payment {
+  background-color: var(--light);
+  padding: 70px 5vw;
+}
+.Payment-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 150px;
+}
+.Payment .Payment-container img {
+  width: 100%;
+  max-width: 550px;
+  justify-self: center;
+}
+.Payment-texts {
+  text-align: start;
+}
+.payment-texts h3 {
+  color: #5853a9;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.payment-texts p {
+  color: var(--gray-dark);
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  padding-top: 5PX;
+}
+.payment-texts a {
+  color: var(--indigo);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.payment-texts a:hover {
+  color: var(--gray-dark);
+}
+.payment-texts a .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.payment-texts a:hover .arrow {
+  transform: translateX(5px);
+}
+.payment-texts a:active .arrow {
+  transform: translateX(8px);
+}
+/* Media */
+@media (max-width: 766px) {
+  .Payment .Payment-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: start;
+  }
+  .Payment .Payment-container img {
+    max-width: 100%;
+    width: 500px;
+  }
+  .payment-texts {
+    text-align: start;
+  }
+  .payment-texts h3 {
+    font-size: 24px;
+  }
+  .payment-texts p {
+    font-size: 16px;
+  }
+  .payment-texts a {
+    font-size: 14px;
+  }
+}
+/* End Payment */
 
 /* start slides */
 
