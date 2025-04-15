@@ -479,15 +479,12 @@ footer {
   margin-left: 20px;
   margin-top: 20px;
   }
-  .footer-info ul li a img{
-    /* margin-bottom: -30px; */
-  }
+  
   .footer-bottom {
-    /* width: 100%; */
+     
     background:var(--purple);
      margin: -10px 0px; 
-    /* padding:1px; */
-    /* margin-top: -23px; */
+    
     width: calc(100% + 10px);
    
     color: #fff;
