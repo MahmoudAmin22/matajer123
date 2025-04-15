@@ -33,6 +33,122 @@ html {
     --light: #f8f9fa;
     --dark: #343a40;
 }
+/* Start nav  */
+.nav{
+
+}
+.content{
+padding-top: 60px;
+display: flex;
+justify-content: space-evenly;
+gap: 450px;
+}
+.content .image img{
+  align-items: center;
+  text-align: center;
+  width: 150px;
+}
+.nav-right{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+.nav-right ul{
+  color: black;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.nav-right ul li a{
+  color: black;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+.nav-right ul li a:hover{
+  color:#5153a6 ;
+  padding-bottom: 1px black;
+  transition: all 0.3s ease-in-out;
+}
+.button{
+  font-size: 14px;
+ color: white;
+  border-radius: 20px;
+  background-color:#5153a6;
+  height: 37px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(245, 16, 16, 0.1);
+  transition: all 0.2s linear;
+  
+}
+.button:hover{
+  background-color: white;
+  color: #5153a6;
+  border:1px dotted #6610f2 ;
+}
+
+
+
+/* End nav  */
+
+/* start section1  */
+.section1{
+padding: 70px;
+}
+.section1 .container{
+  
+  display: flex;
+  justify-content: space-evenly
+  
+  
+  
+}
+.section1 .container .text{
+  text-align: left;
+}
+.section1 .container .text h1{
+  padding-top: 40px;
+  color: #6610f2;
+}
+.section1 .container .text p{
+   color: #6c757d;
+}
+.section1 .container .text a{
+  font-size: 14px;
+  color: white;
+   border-radius: 25px;
+   background-color:#5153a6;
+   height: 45px;
+   width: 170px;
+   text-decoration: none;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   box-shadow: 0 2px 4px rgba(245, 16, 16, 0.1);
+   transition: all 0.2s linear;
+}
+.section1 .container .text a:hover{
+  background-color: white;
+  color: #5153a6;
+  border:1px dotted #6610f2 ;
+}
+.section1 .container .photo{
+
+}
+.section1 .container img{
+width: 450px;
+text-align: center;
+}
 
 
 
@@ -40,6 +156,112 @@ html {
 
 
 
+
+
+
+
+
+/* End section1  */
+
+
+@media (max-width: 1199px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-right ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button {
+    width: 120px;
+    height: 35px;
+  }
+
+  .section1 .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .section1 .container .text {
+    text-align: center;
+  }
+  
+
+  .section1 .container img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-right ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .button {
+    width: 100px;
+    height: 33px;
+    font-size: 13px;
+  }
+
+  .section1 {
+    padding: 30px;
+  }
+
+  .section1 .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .section1 .container .text h1 {
+    font-size: 24px;
+  }
+
+  .section1 .container .text p {
+    font-size: 14px;
+  }
+
+  .section1 .container .text a {
+    width: 150px;
+    height: 40px;
+  }
+
+  .section1 .container img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
 
 
 
