@@ -16,7 +16,7 @@
     if (Math.abs(position) < maxScroll) {
       position -= slideWidth;
     } else {
-      position = 0;  
+      position = 0;    
     }
     updateSlider();
   });
