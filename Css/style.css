@@ -586,6 +586,15 @@ html {
     background-color: var(--light);
     
   }
+
+  .pricing .container .boxes{
+    /* display: flex;
+    justify-content: space-between;
+    gap: 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+  }
   .pricing h1 {
     margin:0 0 50px 0;
     display: flex;  
@@ -602,11 +611,7 @@ html {
     bottom: -40%;
     transform: translateX(-50%);
   }
-  .pricing .container{
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    gap: 30px;
-  }
+ 
   .pricing .box{
   color: #5153a6;
   padding-top: 30px;
@@ -729,9 +734,9 @@ html {
   display: block;
 }
 .pricing .contact{
-  grid-column: 1/4;
+  /* grid-column: 1/4; */
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   height: 150px;
   justify-content: space-between;
   align-items: center;
