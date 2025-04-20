@@ -6,7 +6,69 @@
   <link rel="stylesheet" href="Css/Partner2.css">
 </head>
 <body>
-  <div class="grid-container">
+
+    <div id="navbar"></div>
+
+    <section class="payment-sec">
+        <h1>Provide more payment options</h1>
+        <p class="par">Provide your customers with multiple options to buy from your store and activate them with ease</p>
+        
+        <div class="container">
+        <div class="join">
+          <div class="box">
+            <img src="./images/wallet-90.svg" alt="#">
+            <p>Mada, Apple Pay, Visa, MasterCard</p>
+          </div>
+    
+          <div class="box">
+            <img src="./images/3.svg" alt="#">
+            <p> Reduced fees on online payments for Matajer platform</p>
+          </div>
+    
+          <div class="box">
+            <img src="./images/4.svg" alt="#">
+            <p>
+                The ability to activate the bank transfer and add bank account data easily and clearly</p>
+          </div>
+    
+          <div class="box">
+            <img src="./images/5.svg" alt="#">
+            <p>
+                There is no setup fees or monthly fees</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/6.svg" alt="#">
+            <p>Activate with a click of a button online payment methods via our partner TAP online payment gateway</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/7.svg" alt="#">
+            <p>Online payment can be activated with the commercial register or freelancing document and bank account</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/8.svg" alt="#">
+            <p>Automatic transfer of your balance in the payment gateway to your bank account</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/9.svg" alt="#">
+            <p>The ability to activate payment upon receiving</p>
+          </div>
+    
+         </div>
+    </div>
+    
+      </section>  
+    
+<div class="part2">
+
+  <div class="container">
     <div class="card">
       <img src="https://cdn.mapp.sa/matajerLandingPage/img/mada_icon.png" alt="Mada" class="icon">
       <ul>
@@ -33,5 +95,35 @@
       </ul>
     </div>
   </div>
+</div>
+<div id="footer"></div>
+
+
+
+  <!-- links of js -->
+  <script src="./javascript/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="./javascript/main.js">
+    AOS.init();
+  </script>
+   <script>
+    fetch("nav.html")
+     
+.then(response => response.text())
+.then(data => {
+document.getElementById("navbar").innerHTML = data;
+});
+  </script>
+
+<script>
+      fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+<script src="./javascript/main.js">
+AOS.init();
+</script>
 </body>
 </html>
