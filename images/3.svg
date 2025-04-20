@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="38.691" viewBox="0 0 48 38.691">
+  <g id="_3" data-name="3" transform="translate(2.151 0.559)">
+    <g id="bill" transform="translate(-2.151 -0.559)" opacity="0.249">
+      <g id="Group_55022" data-name="Group 55022" transform="translate(0 0)">
+        <g id="Group_54980" data-name="Group 54980">
+          <path id="Path_33090" data-name="Path 33090" d="M43.37,22.453c-6.018-4.626-11.854-.856-18.365-2.189-6.557-1.343-9.17-5.814-16.638-3.75-6.616,1.828-10.63,9.158-6.993,15.294,1.036,1.749,2.8,3.068,3.524,5.024,1.164,3.156-.608,5.579-.262,8.681C6.071,58.4,25.753,53.409,33,49.4,44.353,43.111,52.037,29.116,43.37,22.453Z" transform="translate(0 -15.978)" fill="rgba(115,117,210,0.66)"/>
+        </g>
+      </g>
+      <g id="Group_55023" data-name="Group 55023">
+        <g id="Group_54980-2" data-name="Group 54980">
+          <path id="Path_33090-2" data-name="Path 33090" d="M43.37,22.453c-6.018-4.626-11.854-.856-18.365-2.189-6.557-1.343-9.17-5.814-16.638-3.75-6.616,1.828-10.63,9.158-6.993,15.294,1.036,1.749,2.8,3.068,3.524,5.024,1.164,3.156-.608,5.579-.262,8.681C6.071,58.4,25.753,53.409,33,49.4,44.353,43.111,52.037,29.116,43.37,22.453Z" transform="translate(0 -15.978)" fill="rgba(115,117,210,0.66)"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_766" data-name="Rectangle 766" width="29" height="36" transform="translate(16.849 2.133)" fill="#fff"/>
+    <rect id="Rectangle_767" data-name="Rectangle 767" width="29" height="7" transform="translate(7.849 29.133)" fill="#fff"/>
+    <path id="Path_32988" data-name="Path 32988" d="M1,20.851v4.276H18.1V21.445A3.464,3.464,0,0,1,21.667,18H3.851A2.85,2.85,0,0,0,1,20.851Z" transform="translate(6.722 10.714)" fill="none" stroke="#37388f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_32989" data-name="Path 32989" d="M20.63,26.332a3.774,3.774,0,0,1,4.009,3.725,3.874,3.874,0,0,0,4.009,3.725h0a3.874,3.874,0,0,0,4.009-3.725V1H7V26.332" transform="translate(9.274 2.058)" fill="none" stroke="#37388f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_33093" data-name="Path 33093" d="M0,0H8.552" transform="translate(25.361 11.999)" fill="none" stroke="#39d5ad" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_33092" data-name="Path 33092" d="M0,0H8.552" transform="translate(25.361 19.45)" fill="none" stroke="#39d5ad" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>
