@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./Css/all.min.css.url">
+        <link rel="stylesheet" href="./Css/bootstrap.min.css">
+        <link rel="stylesheet" href="./Css/normalize.css">
+        <link rel="stylesheet" href="./Css/payment.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+        <link rel=" icon" href="/images/matajerApp.png">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matajer Platform</title>
+    </head>
+<body>
+    <div id="navbar"></div>
+
+
+
+  <section class="payment-sec">
+    <h1>Provide more payment options</h1>
+    <p class="par">Provide your customers with multiple options to buy from your store and activate them with ease</p>
+    
+    <div class="container">
+    <div class="join">
+      <div class="box">
+        <img src="./images/wallet-90.svg" alt="#">
+        <p>Mada, Apple Pay, Visa, MasterCard</p>
+      </div>
+
+      <div class="box">
+        <img src="./images/3.svg" alt="#">
+        <p> Reduced fees on online payments for Matajer platform</p>
+      </div>
+
+      <div class="box">
+        <img src="./images/4.svg" alt="#">
+        <p>
+            The ability to activate the bank transfer and add bank account data easily and clearly</p>
+      </div>
+
+      <div class="box">
+        <img src="./images/5.svg" alt="#">
+        <p>
+            There is no setup fees or monthly fees</p>
+      </div>
+
+
+      <div class="box">
+        <img src="./images/6.svg" alt="#">
+        <p>Activate with a click of a button online payment methods via our partner TAP online payment gateway</p>
+      </div>
+
+
+      <div class="box">
+        <img src="./images/7.svg" alt="#">
+        <p>Online payment can be activated with the commercial register or freelancing document and bank account</p>
+      </div>
+
+
+      <div class="box">
+        <img src="./images/8.svg" alt="#">
+        <p>Automatic transfer of your balance in the payment gateway to your bank account</p>
+      </div>
+
+
+      <div class="box">
+        <img src="./images/9.svg" alt="#">
+        <p>The ability to activate payment upon receiving</p>
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+  </section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer" id="footer"></div>
+    <script>
+        fetch("nav.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("navbar").innerHTML = data;
+  });
+      </script>
+  
+  <script>
+          fetch("footer.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+  });
+  </script>
+</body>
+</html>
