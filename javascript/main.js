@@ -45,8 +45,6 @@
     updateSlider();
   },4000);
 
-
-
   const toggleBtn = document.getElementById("toggle-theme");
   const Payment = document.getElementById("Payment");
 const body = document.body;
@@ -87,6 +85,7 @@ function scroll() {
 }
 
 
+
 fetch("nav.html")
 .then(response => response.text())
 .then(data => {
@@ -99,3 +98,4 @@ fetch("footer.html")
 .then(data => {
   document.getElementById("footer").innerHTML = data;
 });
+ 
