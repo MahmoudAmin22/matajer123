@@ -1,0 +1,275 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f0e5e5;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .pricing{
+    padding: 70px 0;
+  }
+
+  .pricing h2{
+     font-size: 25px;
+     text-align: center;
+     padding-bottom: 20px;
+     position: relative;
+  }
+
+  .pricing h2::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color:rgb(168, 7, 168) ;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+  }
+  .pricing-table {
+    width: 100%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .pricing-table th {
+    padding: 20px;
+    background-color: #9e9c9e1e;
+    vertical-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .pricing-table th h3 {
+    margin: 10px 0;
+    color: rgb(99, 8, 99);
+    
+  }
+  
+  .pricing-table th span {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .pricing-table th h6 {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .pricing-table th .p {
+    color: rgb(146, 109, 146)  ;
+  }
+  .pricing-table th s {
+    color: gray;
+  }
+  .pricing-table th p {
+    font-size: 10px;
+  }
+  .chk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .checked {
+    width:60px;
+    height:25px;
+    background-color: white;
+    border-radius:17px;
+    position: relative;
+    cursor: pointer;
+  }
+  .checked::before {
+    content: "";
+    position: absolute;
+    width:25px;
+    height:25px;
+    right: 0%;
+    background-color: rgb(99, 8, 99);
+    border-radius:15px;
+    /* margin: 5px; */
+  }
+  .checked.active::before {
+    right: 35px;
+    background-color: rgb(8, 99, 31);
+    transition: 0.3s;
+  }
+  .prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 5px;
+    margin-top: 10px;
+  }
+ 
+  .pricing table tbody tr {
+  
+   border: 1px solid #ddd;    
+
+    
+  }
+ 
+  .pricing table tbody .default {
+    background-color: #9e9c9e1e;
+  }
+  .pricing table tbody tr td {
+    padding: 15px;
+  }
+
+  .pricing table tbody tr td i {
+    color: green;
+  }
+ 
+
+ /* ✅ موبايل - تخلي الأعمدة تحت بعض */
+@media (max-width: 768px) {
+  .pricing-table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .pricing-table thead,
+  .pricing-table tbody,
+  .pricing-table tr,
+  .pricing-table th,
+  .pricing-table td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+
+  .chk,
+  .prices {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .pricing h2 {
+    font-size: 20px;
+  }
+
+  .pricing h2::before {
+    width: 60px;
+  }
+}
+
+/* ✅ تابلت */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .pricing-table th {
+    font-size: 14px;
+  }
+
+  .pricing-table .chk,
+  .pricing-table .prices {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.pricing .container .enterprise {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:40px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.pricing .container .enterprise a {
+  padding: 10px 20px;
+  width: 250px;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(99, 8, 99);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  display: block;
+}
+
+.pricing .container .enterprise a:hover {
+  background-color: white;
+  border: 1px solid rgb(99, 8, 99);
+  color: rgb(99, 8, 99);
+  
+   
+}
+
+@media (max-width: 769px) {
+  .pricing .container .enterprise {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+}
+
+
+.pricing .container .faqs a {
+  margin:40px auto;
+  padding: 10px 20px;
+  width: 250px;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(99, 8, 99);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  display: block;
+}
+
+.pricing .container .faqs a:hover {
+  background-color: white;
+  border: 1px solid rgb(99, 8, 99);
+  color: rgb(99, 8, 99);
+  
+   
+}
+.pricing .container .faqs h2 {
+  font-size:34px;
+  color: rgba(0, 0, 0, 0.747);
+
+}
+.pricing .container .faq {
+  margin-top:10px;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  color: rgb(99, 8, 99);
+  width: 100%;
+}

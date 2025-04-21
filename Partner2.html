@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Methods</title>
+  <link rel="stylesheet" href="./Css/all.min.css.url">
+  <link rel="stylesheet" href="./Css/normalize.css">
+  <link rel="stylesheet" href="./Css/Partner2.css">
+  
+  <link rel="stylesheet" href="./Css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <section class="payment-sec">
+        <h1>Provide more payment options</h1>
+        <p class="par">Provide your customers with multiple options to buy from your store and activate them with ease</p>
+        
+        <div class="container">
+        <div class="join">
+          <div class="box">
+            <img src="./images/wallet-90.svg" alt="#">
+            <p>Mada, Apple Pay, Visa, MasterCard</p>
+          </div>
+    
+          <div class="box">
+            <img src="./images/3.svg" alt="#">
+            <p> Reduced fees on online payments for Matajer platform</p>
+          </div>
+    
+          <div class="box">
+            <img src="./images/4.svg" alt="#">
+            <p>
+                The ability to activate the bank transfer and add bank account data easily and clearly</p>
+          </div>
+    
+          <div class="box">
+            <img src="./images/5.svg" alt="#">
+            <p>
+                There is no setup fees or monthly fees</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/6.svg" alt="#">
+            <p>Activate with a click of a button online payment methods via our partner TAP online payment gateway</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/7.svg" alt="#">
+            <p>Online payment can be activated with the commercial register or freelancing document and bank account</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/8.svg" alt="#">
+            <p>Automatic transfer of your balance in the payment gateway to your bank account</p>
+          </div>
+    
+    
+          <div class="box">
+            <img src="./images/9.svg" alt="#">
+            <p>The ability to activate payment upon receiving</p>
+          </div>
+    
+         </div>
+    </div>
+    
+      </section>  
+    
+<div class="part2">
+
+  <div class="container">
+    <div class="play">
+      <img src="https://cdn.mapp.sa/matajerLandingPage/img/mada_icon.png" alt="Mada" class="icon">
+      <ul>
+        <li>1.75% + 1 SAR on each Mada transaction</li>
+        <li>The settlement and collection period for Mada payments is within 3 working days and is transferred to the merchant’s account directly</li>
+      </ul>
+    </div>
+
+    <div class="play">
+      <div class="logos">
+        <img src="https://cdn.mapp.sa/matajerLandingPage/img/visa_icon.png" alt="Visa" class="icon small-icon">
+        <img src="https://cdn.mapp.sa/matajerLandingPage/img/mastercard_icon.png" alt="MasterCard" class="icon small-icon">
+      </div>
+      <ul>
+        <li>2.75% +1 SAR on each Visa and MasterCard Transaction</li>
+        <li>The settlement and collection period for Mada payments is within 5 working days and is transferred to the merchant’s account directly</li>
+      </ul>
+    </div>
+
+    <div class="play">
+      <img src="https://cdn.mapp.sa/matajerLandingPage/img/applePay.png" alt="Apple Pay" class="icon apple">
+      <ul>
+        <li>Automatically activate Apple Pay in your store for free</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="footer"></div>
+
+
+
+  <!-- links of js -->
+  <script src="./javascript/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="./javascript/main.js">
+    AOS.init();
+  </script>
+   <script>
+    fetch("nav.html")
+     
+.then(response => response.text())
+.then(data => {
+document.getElementById("navbar").innerHTML = data;
+});
+  </script>
+
+<script>
+      fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+<script src="./javascript/main.js">
+AOS.init();
+</script>
+</body>
+</html>
