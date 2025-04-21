@@ -42,13 +42,31 @@ html {
     --dark: #343a40;
 }
 /* Start nav  */
- 
+nav {
+  position: fixed;
+  
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1000;
+  text-align: center;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+}
+
 .content{
-  padding-top: 60px;
+  
+  padding: 20px 0px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
+  align-items: center;
   gap: 450px;
-   
   }
   .content .image img{
     align-items: center;
@@ -102,7 +120,84 @@ html {
     color: #5153a6;
     border:1px dotted #6610f2 ;
   }
+  .toggle {
+    display: none;
+    font-size: 30px;
+    color: #5153a6;
+    cursor: pointer;
+  }
   
+ 
+  /* Media Query */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: row;
+      justify-content: space-between;
+      /* padding: 20px; */
+      gap: 0;
+    }
+  
+    .toggle {
+      display: block;
+    }
+  
+    .nav-right {
+      display: none;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      background-color: var(--purple);
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+      z-index: 1000;
+    }
+  
+    .nav-right.open {
+      display: flex;
+    }
+  
+    .nav-right ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .nav-right ul li a {
+      color: white;
+      font-size: 16px;
+    }
+  
+    .nav-right .button {
+      background-color: white;
+      color: #7153a6;
+      border-radius: 20px;
+      width: 120px;
+      align-items: center;
+      /* padding-left: 100px; */
+    }
+
+  }
+  #toggle-theme {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.2s;
+   
+  }
+  
+  #toggle-theme:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.1);
+  }
+  
+  body.dark-mode #toggle-theme:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+ 
+  }
   
   
   /* End nav  */
@@ -266,7 +361,7 @@ html {
       padding-top: 100px;
     }
   }
-  /* Start feature */
+
 
 /* Start feature */
 .feature {
@@ -450,14 +545,24 @@ html {
 }
 /* End Payment */
 
+ 
+/* start part-shipping */
 
+  
+.box_item_feature .container .contain2 h3 {
+  color:#5153a6 ;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px; 
+}
 /* end section mariam */
 
 
 /* start part-shipping */
 
 .box-shipping{
-  background-color:#fff;
+ 
+ 
   width:100% ;
   height: 700px;
   margin-top: 20px;
@@ -695,10 +800,7 @@ html {
 /*end slides */
 
 /* Start Pricing*/
-  .pricing{
-    background-color: var(--light);
-    
-  }
+  
 
   .pricing .container .boxes{
     
