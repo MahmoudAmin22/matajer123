@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.543" height="46.859" viewBox="0 0 63.543 46.859">
+  <g id="icon-8" transform="translate(14.062 0.923)">
+    <g id="bill" transform="matrix(0.934, 0.358, -0.358, 0.934, -1.892, -0.923)" opacity="0.249">
+      <g id="Group_55022" data-name="Group 55022" transform="translate(0 0)">
+        <g id="Group_54980" data-name="Group 54980">
+          <path id="Path_33090" data-name="Path 33090" d="M38.942,5.814C33.54,1.66,28.3,5.045,22.453,3.848,16.565,2.642,14.219-1.372,7.513.481,1.573,2.123-2.032,8.7,1.234,14.21c.931,1.573,2.518,2.758,3.164,4.514,1.045,2.834-.545,5.01-.236,7.795,1.29,11.572,18.962,7.09,25.465,3.489C39.825,24.363,46.724,11.8,38.942,5.814Z" fill="rgba(115,117,210,0.66)"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_780" data-name="Rectangle 780" width="40" height="27" rx="3" transform="translate(8.481 5.983)" fill="#fff"/>
+    <rect id="Rectangle_781" data-name="Rectangle 781" width="5" height="4" transform="translate(22.481 31.983)" fill="#fff"/>
+    <line id="Line_179" data-name="Line 179" y2="13" transform="translate(27.481 12.983)" fill="none" stroke="#39dca5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_180" data-name="Line 180" y2="5" transform="translate(34.481 16.983)" fill="none" stroke="#39dca5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_33083" data-name="Path 33083" d="M2,7.681V27.924A3.681,3.681,0,0,0,5.681,31.6h9.2l7.361,9.2L29.6,31.6h9.2a3.681,3.681,0,0,0,3.681-3.681V7.681A3.681,3.681,0,0,0,38.806,4H5.681A3.681,3.681,0,0,0,2,7.681Z" transform="translate(5.995 1.838)" fill="none" stroke="#37388f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_181" data-name="Line 181" y2="7" transform="translate(21.481 16.983)" fill="none" stroke="#39dca5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

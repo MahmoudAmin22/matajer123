@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./Css/all.min.css.url">
+    <link rel="stylesheet" href="./Css/all.min.css">
     <link rel="stylesheet" href="./Css/bootstrap.min.css">
     <link rel="stylesheet" href="./Css/normalize.css">
     <link rel="stylesheet" href="./Css/style.css">
@@ -16,7 +16,6 @@
     <title>Matajer Platform</title>
 </head>
 <body>
- 
  
 <div id="navbar"></div>
  
@@ -49,7 +48,7 @@
           <p>Converting to quickly and easily E-Commerce and owning your own online store with all <br>
              advantages of E-Commerce providing support service for it.
           </p>
-          <a  href="">START NOW</a>
+          <a  href="/StartNow.html">START NOW</a>
         </div>
          <div class="photo">
           <img src="images/منصة_متاجر.png" alt="">
@@ -78,7 +77,7 @@
           <h3>Manage everything easily</h3>
           <p>Using your mobile to follow online store orders and <br> customers easily any time with simple
               steps.</p>
-              <a href="#">Explore how to manage your online store easily.
+              <a href="manage.html">Explore how to manage your online store easily.
                 <i class="fa fa-angle-right"></i>
               </a>
       </div>
@@ -102,7 +101,7 @@
       <p>Provide multiple options for your customers to buy from your online store and do it<br />
         easily (VISA- MasterCard- Apple Pay- MADA)      
         </p>
-        <a href="./payment.html">Explore more about online payment  <span class="arrow">→</span></a>
+        <a href="./Partner2.html">Explore more about online payment  <span class="arrow">→</span></a>
     </div>
   </div>
   </section>
@@ -338,19 +337,18 @@
 <div class="start">
   <div class="container">
     <p>Focus on growing your business and leave us the task of running your online store</p>
-    <button>START NOW</button>
+    <button onclick="goToPage()">START NOW</button>
+    <script>
+      function goToPage(){
+        window.location.href="/StartNow.html"
+      }
+    </script>
   </div>
 </div>
 
 
 <div class="footer" id="footer"></div>
  
-
-
-
- 
-
-  
   
     <!-- links of js -->
     <script src="./javascript/bootstrap.bundle.min.js"></script>
@@ -374,6 +372,7 @@
   document.getElementById("footer").innerHTML = data;
 });
 </script>
+<script src="./javascript/main.js"></script>
 <script src="./javascript/main.js">
   AOS.init();
 </script>

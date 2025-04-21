@@ -78,11 +78,11 @@ text-align: center;
 .join .box{
     box-shadow: 2px 4px 6px 2px rgba(106, 89, 89, 0.1);
     height: 90px;
-    width: 380px;
     border-radius: 10px;
     display: flex;
     gap:10px ;
     align-items: center;
+    flex: 1;
     margin: 10px;
     padding: 20px;
     
@@ -98,32 +98,60 @@ text-align: center;
 }
 
 
-@media (max-width:769px) {
-    .join .box{
-        width: 100%;
-    }
-}
-@media (max-width:426px) {
-    h1{
-        font-size: 25px;
-    }
-    p{
-      font-size: 10px ;
-    }
-}
-@media (max-width:376px) {
-    h1{
-        margin: auto;
-        text-align: center;
-    }
-    p{
-        margin: auto;
-      text-align: center;
-    }
+
+@media (max-width: 409px) {
+  .join {
+    grid-template-columns: 1fr; /* عمود واحد */
+    padding-top: 40px;
+  }
+
+  .join .box {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+  }
+
+  .join .box img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+
+  .join .box p {
+    font-size: 14px;
+    padding-top: 0;
+  }
+
+  .part2 .container {
+    grid-template-columns: 1fr;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .play {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .small-icon {
+    margin-bottom: 10px;
+  }
 }
 
-
+.part2{
+  
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
  .part2 .container {
+  background-color: whitesmoke;
+ 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: auto auto;
@@ -134,7 +162,7 @@ text-align: center;
     margin: auto;
   }
   
-  .card {
+  .play {
     padding: 25px;
     display: flex;
     box-sizing: border-box;
@@ -177,3 +205,6 @@ text-align: center;
     color: #333;
     margin-bottom: 10px;
   }
+
+
+  
