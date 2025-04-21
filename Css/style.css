@@ -42,24 +42,7 @@ html {
     --dark: #343a40;
 }
 /* Start nav  */
-nav {
-  position: fixed;
-  
-  top: 0;
-  width: 100%;
-  margin: 0 auto;
-  z-index: 1000;
-  text-align: center;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-}
-@media (max-width: 768px) {
-  nav {
-    width: 100%;
-  }
-}
-
+ 
 .content{
   
   padding: 20px 0px;
