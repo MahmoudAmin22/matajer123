@@ -1,0 +1,7 @@
+<svg id="payment" xmlns="http://www.w3.org/2000/svg" width="30.339" height="30.339" viewBox="0 0 30.339 30.339">
+  <path id="Path_32999" data-name="Path 32999" d="M10.017,17.881H1V5H29.339V19.169" transform="translate(0 1.153)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  <path id="Path_33000" data-name="Path 33000" d="M5,17.017v.644a9.661,9.661,0,0,0,9.661,9.661h0a9.661,9.661,0,0,0,9.661-9.661V8h0a5.153,5.153,0,0,0-5.153,5.153v2.576a5.153,5.153,0,0,0-5.153,5.153" transform="translate(1.153 2.017)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  <ellipse id="Ellipse_822" data-name="Ellipse 822" cx="1" cy="1.5" rx="1" ry="1.5" transform="translate(14 11)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  <ellipse id="Ellipse_823" data-name="Ellipse 823" cx="1" cy="1.5" rx="1" ry="1.5" transform="translate(14 11)" fill="#fff"/>
+  <path id="Path_33001" data-name="Path 33001" d="M23.034,6.153V4.864A3.864,3.864,0,0,0,19.169,1H8.864A3.864,3.864,0,0,0,5,4.864V6.153" transform="translate(1.153)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+</svg>
